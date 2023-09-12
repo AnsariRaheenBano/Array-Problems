@@ -58,6 +58,14 @@ void FindLength(int a[], int n) {
   std::cout << "\nNumber of elements in the array is: " << count;
 }
 
+void SearchElement(int a[], int n,int el) {
+  
+  for (int i = 0; i < n; i++) {
+    if (a[i]==el) {
+    std::cout << "\nElement is present at: " << i+1;
+      break;
+ }}}
+
 int main() {
   std::cout << "Hello World!\n";
   int n, d;
